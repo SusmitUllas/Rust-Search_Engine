@@ -1,0 +1,19 @@
+[package]
+name = "filter-parser"
+description = "The parser for the Meilisearch filter syntax"
+publish = false
+
+version.workspace = true
+authors.workspace = true
+# description.workspace = true
+homepage.workspace = true
+readme.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+nom = "7.1.1"
+nom_locate = "4.0.0"
+
+[dev-dependencies]
+insta = "1.21.0"

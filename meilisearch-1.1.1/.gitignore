@@ -1,0 +1,20 @@
+.idea/
+.vscode/
+/target
+**/*.csv
+**/*.json_lines
+**/*.rs.bk
+/*.mdb
+/query-history.txt
+/data.ms
+/snapshots
+/dumps
+
+# Snapshots
+## ... large
+*.full.snap
+##  ... unreviewed
+*.snap.new
+
+# Fuzzcheck data for the facet indexing fuzz test
+milli/fuzz/update::facet::incremental::fuzz::fuzz/

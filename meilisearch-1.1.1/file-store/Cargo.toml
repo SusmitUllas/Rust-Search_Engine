@@ -1,0 +1,19 @@
+[package]
+name = "file-store"
+publish = false
+
+version.workspace = true
+authors.workspace = true
+description.workspace = true
+homepage.workspace = true
+readme.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+tempfile = "3.3.0"
+thiserror = "1.0.30"
+uuid = { version = "1.1.2", features = ["serde", "v4"] }
+
+[dev-dependencies]
+faux = "0.1.8"
